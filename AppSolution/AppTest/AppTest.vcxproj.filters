@@ -21,7 +21,10 @@
     <ClInclude Include="Test_Fixture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sample_Test.h">
+    <ClInclude Include="SampleClass_Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedClass_Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,10 +35,13 @@
     <ClCompile Include="Test_Fixture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sample_Test.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="SampleClass_Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedClass_Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

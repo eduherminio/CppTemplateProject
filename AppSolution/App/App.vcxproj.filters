@@ -21,13 +21,20 @@
     <ClInclude Include="SampleClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DerivedClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App.cpp">
+    <ClCompile Include="SampleClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DerivedClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp" />
   </ItemGroup>
 </Project>

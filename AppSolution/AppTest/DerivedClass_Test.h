@@ -1,9 +1,9 @@
 #pragma once
 
-class Sample_Test
+class DerivedClass_Test
 {
 public:
-	Sample_Test(){}
+	DerivedClass_Test() {}
 
 	void Test1();
 	void Test2();

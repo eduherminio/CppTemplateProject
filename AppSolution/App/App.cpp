@@ -2,17 +2,18 @@
 //
 
 #include "pch.h"
-#include "SampleClass.h"
+#include "DerivedClass.h"
 
 int main()
 {
-	SampleClass instance;
-	std::cout << instance.Echo("Hi world!\nWhat do you wan't me to repeat?\n") << std::endl;
+	SampleClass sampleClassInstance;
+	std::cout << sampleClassInstance.Echo("Hi world!\nWhat do you wan't me to repeat?") << std::endl;
 
 	std::string str;
 	std::cin >> str;
+	DerivedClass instance;
 	std::cout << instance.Echo(str) << std::endl;
-	
+
 	std::cin >> str;
 }
 

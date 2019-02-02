@@ -4,8 +4,8 @@
 class SampleClass
 {
 public:
-	std::string Echo(std::string str)
-	{
-		return str;
-	};
+	SampleClass();
+	virtual ~SampleClass();
+
+	virtual std::string Echo(std::string str);
 };
